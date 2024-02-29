@@ -1,10 +1,11 @@
 #include <iostream>
-using namespace std;
+
+
 
 int main(){
 
 
-    cout << "I'm alive!!!!!" << endl;
+    std::cout << "I'm alive!!!!!" << std::endl;
 
 
     return 0;
