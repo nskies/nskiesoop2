@@ -1,11 +1,21 @@
 #include <iostream>
+#include "container.h"
+
+int sum(int & a, int & b){
+    return a + b;
+};
+
 
 
 
 int main(){
 
+    int a = 10;
 
-    std::cout << "I'm alive!!!!!" << std::endl;
+    int * px = &a;
+
+    std::cout << px << std::endl;
+    
 
 
     return 0;
